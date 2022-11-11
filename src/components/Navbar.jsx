@@ -35,6 +35,7 @@ const NavbarComponents = () => {
       </Navbar>
 
       <Routes>
+        <Route path="/" element={<HomePage />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/porto" element={<PortofolioPage />} />
