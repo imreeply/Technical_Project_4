@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+
+/* Nav */
+
+.link-nav {
+  text-decoration: none;
+  color: rgb(175, 175, 175);
+  transition: 0.3s;
+  margin: 10px;
+}
+
+.link-nav:hover {
+  color: white;
+}
+
+/* End Nav */
+
+/* Profile */
+.foto {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.foto .profile {
+  padding: 5px;
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+  border: 7px solid #273036;
+  transition: 0.3s;
+}
+
+.foto .profile:hover {
+  filter: drop-shadow(0px 0px 2px rgba(255, 255, 255, 0.25));
+  border-color: #444444;
+}
+/* End Profile */
+
+/* Description */
+.Description {
+  text-align: center;
+  padding: 30px;
+}
+
+.Description h2 {
+  padding-top: 5px;
+  font-family: "Kaushan Script", cursive;
+  color: #273036;
+}
+
+.Description h3 {
+  padding-bottom: 10px;
+  font-family: "Kaushan Script", cursive;
+  color: #273036;
+  font-size: small;
+}
+
+.Description p {
+  color: #273036;
+}
+/* End Description */
+
+/* About */
+
+.container-about {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: center;
+}
+.sosmed i {
+  padding: 2rem;
+}
+
+.sosmed i a {
+  padding: 5px;
+}
+
+/* Portofolio */
+
+.judul {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.judul h2 {
+  font-family: "Kaushan Script", cursive;
+  color: #4f455c;
+}
+
+/* Portofolio */
+/* Card */
+
+.container-card {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-porto {
+  display: flex;
+  gap: 25px 40px;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.porto {
+  background-color: #6c848d;
+  border-radius: 20px;
+  padding: 40px 25px 25px;
+  flex-grow: 1;
+  flex-basis: 128px;
+  max-width: 300px;
+  transition: 0.3s;
+}
+
+.porto:hover {
+  box-shadow: 0px 4px 58px -5px rgba(0, 0, 0, 0.5);
+}
+
+.teks-porto {
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 21px;
+  margin-bottom: 1.562rem;
+  color: white;
+  font-family: "Kaushan Script", cursive;
+}
+
+.porto-img {
+  width: 10px;
+}
+
+.porto-img img {
+  display: block;
+  text-align: center;
+  width: 300px;
+  border-radius: 20px;
+}
+/* End Card */
+
+/* Blog */
+
+.site-container {
+  margin: 2rem auto;
+  max-width: calc(100% - 80px);
+  padding: 5rem;
+}
+
+.article-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+  gap: 2rem;
+}
+
+.article-image {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.article-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0;
+}
+
+.article-card {
+  background: white;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.article-card:hover {
+  box-shadow: 0px 4px 58px -5px rgba(0, 0, 0, 0.178);
+  cursor: pointer;
+}
+
+.article-content {
+  padding: 2rem;
+}
+
+.article-content .card-category {
+  font-size: 0.765rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+
+.article-container h3 {
+  margin: 1rem 0;
+  color: black;
+}
+
+.article-container p {
+  font-size: 14px;
+}
+
+/* End Blog */
